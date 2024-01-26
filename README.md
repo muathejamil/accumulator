@@ -28,10 +28,13 @@ Pass three command-line arguments when running the application:
 - `-t`: The name of the SNS topic.
 - `-a`: The ARN of the SNS topic.
 
+
+![image](https://github.com/muathejamil/accumulator/assets/27643048/9f6321d7-6adc-4e18-bba0-1136cbed67a1)
+
 ### Example Command
 
 ```sh
 go run main.go -q YourQueueName -t YourTopicName -a YourTopicARN
 
 
-![image](https://github.com/muathejamil/accumulator/assets/27643048/9f6321d7-6adc-4e18-bba0-1136cbed67a1)
+
