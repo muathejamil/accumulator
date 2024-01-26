@@ -1,5 +1,7 @@
 # Go Accumulator Server
 
+
+
 This Go application integrates AWS SNS (Simple Notification Service) and SQS (Simple Queue Service). 
 It allows users to input numbers via the console, which are then published to an SNS topic. This topic forwards the messages to an SQS queue. 
 The server polls messages from the queue, accumulates their values, and prints the running total.
